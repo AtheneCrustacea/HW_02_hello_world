@@ -1,6 +1,6 @@
 PWD :=$(shell pwd)
 KERNEL_DIR ?= /lib/modules/$(shell uname -r)/build
-DRV_NAME = my_module
+DRV_NAME = hello_world_extended
 
 obj-m := $(DRV_NAME).o
 
