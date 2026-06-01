@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#Test script for 'hello_world_extended' kernel module
+# Arg 1 - String to be written into the module
+
 PARAM_FOLDER="/sys/module/my_module/parameters"
 if [ ! -d "$PARAM_FOLDER" ]; then
     echo "Error: module not loaded or sysfs entry missing."
